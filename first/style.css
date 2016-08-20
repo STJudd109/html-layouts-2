@@ -1,0 +1,91 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.row {
+    display: block;
+    margin: 5px 5px;
+}
+
+.top {
+    height: 15%;
+}
+
+/*TOP*/
+.top1, .top2, .top3 {
+    height: 90%;
+    width: 30%;
+    display: inline-block;
+    margin: 8px;
+}
+
+.top1 {
+        background-color: lightcoral;
+}
+
+.top2 {
+        background-color: lightblue;
+}
+
+.top3 {
+        background-color: grey;
+}
+
+/*MID*/
+
+.mid {
+    height: 35%;
+}
+
+/*BOT*/
+
+.bot {
+    height: 35%;
+    margin: 0 auto;
+}
+.bot1, .bot2 {
+    height: 90%;
+    display: inline-block;
+}
+
+.bot1 {
+    background-color: lightcoral;
+    width: 20%;
+}
+
+.bot2 {
+    background-color: lightblue;
+    width: 78%;
+}
+
+
+/*FOOT*/
+
+.foot {
+    height: 15%;
+}
+
+.foot1, .foot2 {
+    height: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.foot1 {
+    width: 70%;
+    background-color: lightblue;
+}
+
+.foot2 {
+    width: 25%;
+    background-color: lightcoral;
+    margin: 0 auto;
+}
+.foot2 div:first-child {
+    width: 75%;
+    background-color: grey;
+    margin: 0 auto;
+    height: 100%
+}
+

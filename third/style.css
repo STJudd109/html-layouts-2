@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    font-size: .8em;
+}
+
+.header {
+    background-color: #444;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header div {
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.header div:hover {
+    background-color: #666;
+}
+
+.content {
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+.left div {
+    display: block;
+    height: 100px;
+    margin: 5px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+.right div {
+    display: block;
+    height: 100px;
+    margin: 5px;
+}
+.pic {
+    background-color: grey;
+    min-height: 150px;
+}
+.footer {
+    background-color: #444;
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.title {
+    margin: 5px;
+}
